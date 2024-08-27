@@ -23,6 +23,7 @@ jobs:
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
           heroku_app_name: "spotify-clone-web" #Must be unique in Heroku
           heroku_email: ${{secrets.EMAIL}}
+          appdir: "backend"
           stack: "heroku-22"
 
  build:
