@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
 
 @RestController
-@RequestMapping(path = "sa",produces = "application/json")
+@RequestMapping(path = "la",produces = "application/json")
 public class AnalyseController {
 
 
